@@ -1,0 +1,393 @@
+{
+  "input": "/workspace/assets/props/raw/forest-sheet.png",
+  "rows": 3,
+  "cols": 3,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "moss-stone",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        469,
+        469
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 49440,
+      "selected_component_bbox": [
+        104,
+        112,
+        373,
+        348
+      ],
+      "crop_bbox": [
+        104,
+        112,
+        373,
+        348
+      ],
+      "padded_crop_bbox": [
+        96,
+        104,
+        381,
+        356
+      ],
+      "edge_touch": false,
+      "output_size": [
+        285,
+        252
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/moss-stone/prop.png"
+    },
+    {
+      "index": 1,
+      "label": "pebbles",
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        469,
+        0,
+        938,
+        469
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 41399,
+      "selected_component_bbox": [
+        94,
+        130,
+        369,
+        350
+      ],
+      "crop_bbox": [
+        94,
+        130,
+        369,
+        350
+      ],
+      "padded_crop_bbox": [
+        86,
+        122,
+        377,
+        358
+      ],
+      "edge_touch": false,
+      "output_size": [
+        291,
+        236
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/pebbles/prop.png"
+    },
+    {
+      "index": 2,
+      "label": "stump",
+      "grid": [
+        0,
+        2
+      ],
+      "source_box": [
+        938,
+        0,
+        1407,
+        469
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 53660,
+      "selected_component_bbox": [
+        47,
+        115,
+        376,
+        368
+      ],
+      "crop_bbox": [
+        47,
+        115,
+        376,
+        368
+      ],
+      "padded_crop_bbox": [
+        39,
+        107,
+        384,
+        376
+      ],
+      "edge_touch": false,
+      "output_size": [
+        345,
+        269
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/stump/prop.png"
+    },
+    {
+      "index": 3,
+      "label": "fern",
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        469,
+        469,
+        938
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 51490,
+      "selected_component_bbox": [
+        68,
+        49,
+        406,
+        347
+      ],
+      "crop_bbox": [
+        68,
+        49,
+        406,
+        347
+      ],
+      "padded_crop_bbox": [
+        60,
+        41,
+        414,
+        355
+      ],
+      "edge_touch": false,
+      "output_size": [
+        354,
+        314
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/fern/prop.png"
+    },
+    {
+      "index": 4,
+      "label": "mushrooms",
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        469,
+        469,
+        938,
+        938
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 52376,
+      "selected_component_bbox": [
+        85,
+        67,
+        369,
+        343
+      ],
+      "crop_bbox": [
+        85,
+        67,
+        369,
+        343
+      ],
+      "padded_crop_bbox": [
+        77,
+        59,
+        377,
+        351
+      ],
+      "edge_touch": false,
+      "output_size": [
+        300,
+        292
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/mushrooms/prop.png"
+    },
+    {
+      "index": 5,
+      "label": "shrub",
+      "grid": [
+        1,
+        2
+      ],
+      "source_box": [
+        938,
+        469,
+        1407,
+        938
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 55504,
+      "selected_component_bbox": [
+        62,
+        76,
+        362,
+        336
+      ],
+      "crop_bbox": [
+        62,
+        76,
+        362,
+        336
+      ],
+      "padded_crop_bbox": [
+        54,
+        68,
+        370,
+        344
+      ],
+      "edge_touch": false,
+      "output_size": [
+        316,
+        276
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/shrub/prop.png"
+    },
+    {
+      "index": 6,
+      "label": "log",
+      "grid": [
+        2,
+        0
+      ],
+      "source_box": [
+        0,
+        938,
+        469,
+        1407
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 44208,
+      "selected_component_bbox": [
+        84,
+        78,
+        389,
+        303
+      ],
+      "crop_bbox": [
+        84,
+        78,
+        389,
+        303
+      ],
+      "padded_crop_bbox": [
+        76,
+        70,
+        397,
+        311
+      ],
+      "edge_touch": false,
+      "output_size": [
+        321,
+        241
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/log/prop.png"
+    },
+    {
+      "index": 7,
+      "label": "lantern-post",
+      "grid": [
+        2,
+        1
+      ],
+      "source_box": [
+        469,
+        938,
+        938,
+        1407
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 27581,
+      "selected_component_bbox": [
+        153,
+        30,
+        300,
+        340
+      ],
+      "crop_bbox": [
+        153,
+        30,
+        300,
+        340
+      ],
+      "padded_crop_bbox": [
+        145,
+        22,
+        308,
+        348
+      ],
+      "edge_touch": false,
+      "output_size": [
+        163,
+        326
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/lantern-post/prop.png"
+    },
+    {
+      "index": 8,
+      "label": "root",
+      "grid": [
+        2,
+        2
+      ],
+      "source_box": [
+        938,
+        938,
+        1407,
+        1407
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 58881,
+      "selected_component_bbox": [
+        48,
+        44,
+        364,
+        331
+      ],
+      "crop_bbox": [
+        48,
+        44,
+        364,
+        331
+      ],
+      "padded_crop_bbox": [
+        40,
+        36,
+        372,
+        339
+      ],
+      "edge_touch": false,
+      "output_size": [
+        332,
+        303
+      ],
+      "status": "accepted",
+      "image": "/workspace/assets/props/root/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": []
+}

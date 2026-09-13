@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Wispwood Beta</title>
+    <meta name="description" content="Wispwood Beta. Hold the lantern. Outlast the night." />
+    <meta name="theme-color" content="#0c0d0c" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=optional"
+    />
+    <link rel="preload" as="image" href="game/player/sheet.png" />
+    <link rel="preload" as="image" href="game/wisp/sheet.png" />
+    <link rel="preload" as="image" href="game/projectile/sheet.png" />
+    <script>
+      (function () {
+        var vv = window.visualViewport;
+        var h = Math.round((vv && vv.height) || window.innerHeight || 0);
+        var w = Math.round((vv && vv.width) || window.innerWidth || 0);
+        var t = Math.round((vv && vv.offsetTop) || 0);
+        var l = Math.round((vv && vv.offsetLeft) || 0);
+        document.documentElement.style.setProperty("--app-h", h + "px");
+        document.documentElement.style.setProperty("--app-w", w + "px");
+        document.documentElement.style.setProperty("--app-top", t + "px");
+        document.documentElement.style.setProperty("--app-left", l + "px");
+      })();
+    </script>
+  </head>
+  <body class="bg-bg text-fg">
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>
